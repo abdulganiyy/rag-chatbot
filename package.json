@@ -1,0 +1,28 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.2.28",
+    "@langchain/mistralai": "^0.0.28",
+    "@langchain/openai": "^0.2.7",
+    "@supabase/supabase-js": "^2.45.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "langchain": "^0.2.16",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.1.4"
+  }
+}
